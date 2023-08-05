@@ -129,12 +129,28 @@ p{
     width: 100%;
     height: 200px;
     margin-top: 50px;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-direction: column;
 }
 
-/* .footer .col{
+.footer a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 300;
+}
 
-} */
+.footer a:hover{
+    color: var(--secondary-color);
+}
+
+.footer #copyright{
+    margin-top: 20px;
+    color: white;
+    font-weight: 50;
+    font-size: 0.9rem;
+}
 
 
 /* Location Section */
